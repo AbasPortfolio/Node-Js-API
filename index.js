@@ -27,7 +27,7 @@ app.use(errorHandler)
 
 
 connect(process.env.MONGO_URL).then(
-    app.listen(5000,()=>{
+    app.listen(process.env.PORT || 5000,()=>{
         console.log(`app is listening on port ${process.env.PORT}`)
     })
 ).catch(error=>{console.log(error)})
