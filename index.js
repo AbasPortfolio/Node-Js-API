@@ -14,7 +14,7 @@ const app = express();
 
 app.use(express.json({extended: true}))
 app.use(express.urlencoded({extended: true}))
-app.use(cors({credentials: true, origin: "https://react-mzansi-blog.vercel.app/"}))
+app.use(cors({credentials: true, origin: "https://react-mzansi-blog-a0u2abjhf-abas-projects-194c8cc8.vercel.app"}))
 app.use(uploads())
 app.use('/uploads', express.static(__dirname + '/uploads'))
 
