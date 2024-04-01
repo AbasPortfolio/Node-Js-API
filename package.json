@@ -1,10 +1,11 @@
 {
   "name": "api",
+  "homepage": "https://react-mzansi-blog-5f1ert2an-abas-projects-194c8cc8.vercel.app",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "index.js",
     "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
